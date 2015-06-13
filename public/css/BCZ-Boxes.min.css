@@ -1,0 +1,123 @@
+
+@font-face {
+	font-family: Dosis;
+	src: url('BCZ-Boxes/fonts/Dosis-Bold.ttf');
+}
+	
+@font-face {
+	font-family: Organo;
+	src: url('BCZ-Boxes/fonts/Organo.ttf');
+}
+
+@font-face {
+	font-family: Station;
+	src: url('BCZ-Boxes/fonts/Station.ttf');
+}
+@font-face {
+	font-family: AnjaEliane;
+	src: url('BCZ-Boxes/fonts/AnjaEliane.ttf');
+}
+	
+@font-face {
+	font-family: Masterblast;
+	src: url('BCZ-Boxes/fonts/Masterblast.otf');
+}
+
+@font-face {
+	font-family: Code-H;
+	src: url('BCZ-Boxes/fonts/CODE-Bold.otf');
+}
+@font-face {
+	font-family: Code-L;
+	src: url('BCZ-Boxes/fonts/CODE-Light.otf');
+}
+
+
+a:hover{text-decoration:none;}
+
+.b-untouchable{
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+	cursor:default;
+}
+
+.b-faveLink:hover{ cursor:pointer; }
+
+.ztop{
+	position:relative;
+	z-index:9999;
+}
+/*Boxes*/
+
+.boxx {
+	content: " ";
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	clear: both;
+}
+@media (min-width: 768px) {
+  .boxx {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .boxx {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .boxx {
+    width: 1170px;
+  }
+}
+
+.b-line {
+	content: " ";
+	display: table;
+	padding-left: -10px;
+	padding-right: -10px;
+	clear: both;
+}
+/*Navigaton Bar*/
+
+.b-navbar{
+	width:100%;
+	height: 100px;
+	background:#c8c8c8;
+}
+
+/*Positions*/
+.b-gum-top,
+.b-gum-bottom {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.b-gum-top {
+	top: 0;
+	border-width: 0 0 1px;
+}
+.b-gum-bottom {
+	bottom: 0;
+	margin-bottom: 0;
+	border-width: 1px 0 0;
+}
+.b-gum{
+	position: fixed;
+	right: 0;
+	left: 0;
+	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+	top: 0;
+	z-index: 0;
+}
