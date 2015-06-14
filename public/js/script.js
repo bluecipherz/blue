@@ -71,6 +71,6 @@ jQuery(document).ready(function() {
 		$('#pc').animate ({ top: '0', }, 700, 'swing', function() { loop(); });
     }
     loop();
-
+  var $fuckVariableTestShitISGonnaHappenFuckThisShitNotePadFuckedME
 
 });	
