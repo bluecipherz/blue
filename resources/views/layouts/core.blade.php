@@ -10,6 +10,7 @@
 	<link href="{{ asset('/css/app.css') }}" type="text/css" rel="stylesheet">
 	<link href="{{ asset('/css/BCZ-Boxes.min.css') }}" type="text/css" rel="stylesheet"/>
 	<link href="{{ asset('/css/custom.css') }}" type="text/css" rel="stylesheet"/>
+	<link href="{{ asset('/css/graphics.css') }}" type="text/css" rel="stylesheet"/>
 	<link href="{{ asset('/css/responsive.css') }}" type="text/css" rel="stylesheet"/>
 	@yield('csslinks')
 
@@ -61,6 +62,7 @@
 	<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 	<script src="{{ asset('/js/BCZ-Boxes.min.js') }}"></script>
 	<script src="{{ asset('/js/script.js') }}"></script>
+	<script src="{{ asset('/js/animation.js') }}"></script>
 	<script src="{{ asset('/js/app.js') }}"></script>
 	@yield('jslinks')
 </body>
