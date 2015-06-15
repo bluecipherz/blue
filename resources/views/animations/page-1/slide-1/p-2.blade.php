@@ -53,8 +53,19 @@
 	left:10px;
 	border-radius:50%;
 }
+
+#p1-s1-p2-d{
+	opacity:0;
+	position:absolute;
+	top:20px;
+	left:0px;
+	width:115px;
+	height:100px;
+	transform:rotate(90deg);
+	overflow:hidden;
+}
 </style>
-	<div class="m2"></div>
+	<div class="m2" ></div>	
 <div id="p1-s1-p2">
 	
 	<div class="h">	</div>
@@ -69,4 +80,7 @@
 		<span class="box1">	</span>
 		<span class="box1">	</span>
 	</div> 
+</div>
+<div id="p1-s1-p2-d">
+	@include('animations.page-1.slide-1.p-2-2')
 </div>

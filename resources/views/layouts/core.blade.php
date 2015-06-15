@@ -59,6 +59,7 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	-->
 	<script src="{{ asset('/js/jquery-2.1.4.js') }}"></script>
+	<script src="{{ asset('/js/jquery-ui.js') }}"></script>
 	<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 	<script src="{{ asset('/js/BCZ-Boxes.min.js') }}"></script>
 	<script src="{{ asset('/js/script.js') }}"></script>

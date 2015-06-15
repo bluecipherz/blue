@@ -12,8 +12,7 @@
 <div class="home-top b-gum">
 	<div class="boxx" style="height:100% ;">
 		<div class="row" style="height:100% ;">
-			<div class="h-t-content layer-middle b-untouchable" style="height:100% ; ">
-			
+			<div class="h-t-content b-untouchable" style="height:100% ; ">
 				<div class="page-1">
 					<div class="col-md-10 col-md-offset-1 " style="height:100% ;">
 						<div class="slide-1">

@@ -12,12 +12,14 @@
  */	
  
 	.page-1{
+		margin-top:-50px;
 		width:100%;
 		height:100%;
 		transition:transform 1s, opacity 1s;
+		
 	}
 
-/* Slide 2*/
+/* Slide 1*/
 	
 	.slide-1{
 		position:absolute;
@@ -26,16 +28,29 @@
 		width:100%;
 		height:100%;
 	}
-	
- .slide-1 > .title > span{
-	opacity:0;
- }
 
- .slide-1 > .graphics{
+.slide-1 > .title {
+	position:absolute;
+	text-align:center;
+}	
+	
+.slide-1 > .title > span{
+	position:relative;
+	opacity:0;
+}
+	.t-1{ margin-left:170px; }
+
+.slide-1 > .graphics{
 	position:absolute;
 	top:150px;
-	left:40px;
- }
+	left:50px;
+}
+
+#laptop-set{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
 #pc{
 	position:absolute;
 	left:250px;
@@ -48,7 +63,7 @@
 	border-radius:7px;
 } 
 	.pc-screen{
-		background:#b4c0cc;
+		background:#fff;
 		width:230px;
 		height:130px;
 		margin:10px 5px 10px 10px;
@@ -103,6 +118,14 @@
 	}
 	
 	
+	
+	
+	
+#tab-set{
+	position:absolute;
+	left:0px;
+	top:0px;
+}	
 #tab{
 	position:absolute;
 	left:100px;
@@ -117,6 +140,8 @@
 	-ms-transform: rotate(-7deg); /* IE 9 */
     -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
     transform: rotate(-7deg);
+	
+	transition: -ms-transform 0.5s , -webkit-transform 0.5s ,transform 0.5s;
 } 	
 
 	.tab-screen{
@@ -124,6 +149,7 @@
 		width:90px;
 		height:110px;
 		margin:10px 5px 10px 10px;
+		overflow:hidden;
 	}
 	
 	/* Screen */
@@ -160,6 +186,15 @@
 		left:140px;
 		top:230px;
 	}
+	
+	
+	
+	
+#phone-set{
+	position:absolute;
+	left:0px;
+	top:0px;
+}		
 	
 #phone{
 	position:absolute;
@@ -267,15 +302,15 @@
 		.linkBox{
 			left:-4000px;
 			position:absolute;
-			height:250px;
+			height:220px;
 			width:250px;
 			background:rgba(255,255,255,0.5);
 			opacity: 0;
 			transition:opacity .5s;
 		}
 		
-		.linkBox1{ top:25px; left:20px; transition-delay: .0s;}
-		.linkBox2{ top:25px; left:300px; transition-delay: .1s;}
-		.linkBox3{ top:300px; left:20px; transition-delay: .2s;}
-		.linkBox4{ top:300px; left:300px; transition-delay: .3s;}
+		.linkBox1{ top:60px; left:20px; transition-delay: .0s;}
+		.linkBox2{ top:60px; left:300px; transition-delay: .1s;}
+		.linkBox3{ top:315px; left:20px; transition-delay: .2s;}
+		.linkBox4{ top:315px; left:300px; transition-delay: .3s;}
 		

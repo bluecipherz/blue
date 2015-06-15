@@ -1,22 +1,23 @@
 <style>
 
-#p1-s1-p1{
+#p1-s1-p2-2{
+	
 	display:block;
 	float:left;
 	
 	width:100%;
-	height:400%;
+	height:100%;
 	background:#b4c0cc;	
 	border-right: 2px solid #000;	
 }
 
-#p1-s1-p1 .h{
+#p1-s1-p2-2 .h{
 	width:100%;
 	background:#e67e22;
-	height:5%;
+	height:20%;
 }
 
-#p1-s1-p1 > .cont {
+#p1-s1-p2-2 > .cont {
 	display:inline_block;
 	float:left;
 	width:80%;
@@ -25,31 +26,31 @@
 }
 
 
-#p1-s1-p1 > .cont > .box1 ,.box1-2{
+#p1-s1-p2-2 > .cont > .box1 ,.box1-2{
 	display:inline_block;
 	float:left;
 	width:23%;
 	margin:1%;
 	background:#95a5a6;
-	height:10%;
+	height:40%;
 	transition:background .4s;
 }
 
-#p1-s1-p1 > .cont > .box2{
+#p1-s1-p2-2 > .cont > .box2{
 	display:inline_block;
 	float:left;
 	width:100%;
 	margin:3% 0px 0px 0px;
 	background:#95a5a6;
-	height:20%;
+	height:70%;
 }
 
 
-#p1-s1-p1 > .cont > .colorMe{
+#p1-s1-p2-2 > .cont > .colorMe{
 	background : #3498db;
 }
 
-#p1-s1-p1 > .m1{
+#p1-s1-p2-2 > .m2-2{
 	position:absolute;
 	background:#535353;
 	width:10px;
@@ -59,8 +60,8 @@
 	border-radius:50%;
 }
 </style>
-<div id="p1-s1-p1">
-	<div class="m1"></div>
+<div id="p1-s1-p2-2">
+	<div class="m2-2"></div>
 	<div class="h">	</div>
 	<div class="cont">
 		<span class="box1">	</span>
