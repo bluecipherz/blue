@@ -300,6 +300,8 @@
 			position:absolute;
 			top:50px;
 			left:-4000px;
+			opacity:0;
+			transition:opacity 0.3s;
 		}
 		.linkBox{
 			display:inline_block;
@@ -308,8 +310,8 @@
 			height:220px;
 			width:45%;
 			margin: 2.5% 2.5% 2.5% 2.5%;
-			background:rgba(255,255,255,0.5);
-			opacity: 0;
+			background:rgba(255,255,255,0.7);
+			opacity: 1;
 			transition:opacity .5s;
 		}
 		

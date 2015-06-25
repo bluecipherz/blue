@@ -23,7 +23,7 @@
 }
 
 .b-navset > a{
-	font-family:Code-L;
+	font-family:Code-H;
 	color:#2ecc9e;
 	font-size:100%;
 	margin:0px 3px 0px 3px;
@@ -32,7 +32,7 @@
 	transition:background 1s;
 }
 .b-navset > a:hover{
-	background:rgba(255,255,255,0.1);
+	background:rgba(255,255,255,0.05);
 	transition:background .2s;
 	color:#2ecc71;
 }
