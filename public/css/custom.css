@@ -6,9 +6,9 @@
 }
 
 .cuts-nav-bg{
-	top:-100px;
+	top:0px;
 	height:100px;
-	background:rgba(0,0,0,0.2);
+	background:rgba(255,255,255,0.05);
 	transition: top .7s;
 }
 .Icon{
@@ -60,13 +60,61 @@
 	font-family:Code-L;
 	letter-spacing:4px;
 	color:#99c6ce;
-	font-size:250%;
 	text-align:center;
 	padding-top:200px;
 }
 .home-top-fake{
 	height:2000px;
 }
+.sideLinkSet{
+	display:block;
+	position:absolute;
+	left:50px;
+	top:240px;
+	width:150px;
+	height:300px;
+	font-family:Code-H;
+	font-size:120%;
+	color:#99c6ce;
+	z-index:1999;
+}
+	.sidelink{
+		display:block;
+		float:left;
+		margin:5px 0px 10px 0px;
+	}
+	
+	
+	.sn-name{
+		display:inline_block;
+		float:left;
+		position:relative;
+		margin:1px 0px 0px 20px;
+	}
+	.b-dot-1{
+		border:3px solid #4d7177;
+		transition: border .8s;
+	}
+	.b-dot-1:after{
+		background:#4d7177;
+		transition: background .8s;
+	}
+		.sidelink:hover .b-dot-1{
+			border:3px solid #2ecc9e;
+			transition: border .1s;
+		}
+		.sidelink:hover .b-dot-1:after{
+			background:#2ecc9e;
+			
+			transition: background .1s;
+		}
+		
+		.sidelink:hover .sn-name{
+			color:#2ecc9e;
+		}
+		
+
+	
 	
 .home-mid{
 	min-height:1000px;

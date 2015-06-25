@@ -43,7 +43,7 @@ a:hover{text-decoration:none;}
 	cursor:default;
 }
 
-.b-faveLink:hover{ cursor:pointer; }
+.b-fakeLink:hover{ cursor:pointer; }
 
 .ztop{
 	position:relative;
@@ -120,4 +120,29 @@ a:hover{text-decoration:none;}
 	padding-right: 0;
 	top: 0;
 	z-index: 0;
+}
+
+/*
+*
+*EXTRAS
+*
+**/
+
+.b-dot-1{
+	display:inline_block;
+	float:left;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	border:3px solid red;
+}
+.b-dot-1:after{
+	content:"";
+	position:relative;
+	display:inline_block;
+	float:left;
+	width:10px;
+	height:3px;
+	background:red;
+	margin:6px 0px 0px 15px;
 }
