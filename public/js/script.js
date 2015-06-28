@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
 	
 	
 	window.onscroll = function() {
-		if( window.pageYOffset >= 10 && $(".home-top-fake").isOnScreen(-$homeMidHeight - 1 ) == true ){
+		if( $(".home-top-fake").isOnScreen(-$homeMidHeight - 1 ) == true ){
 			$(".cuts-nav-bg").css({"top" : "0px"});
 		}else{
 				$(".cuts-nav-bg").css({"top" : "-100px"});
@@ -31,21 +31,18 @@ jQuery(document).ready(function() {
 	function linkBoxSet() {
 		
 		$('.linkSet').css({ 'left' : '0px'});
-				
-		$('.linkBox1').css({ 'opacity' : '1'});
-		$('.linkBox2').css({ 'opacity' : '1'});
-		$('.linkBox3').css({ 'opacity' : '1'});
-		$('.linkBox4').css({ 'opacity' : '1'});
+		$('.linkSet').css({ 'opacity' : '1'});
+		
 		clearTimeout(timeout);
 	}
 	
 	function linkBoxReset() {
-		timeout = setTimeout(function(){$('.linkSet').css({ 'left' : '-4000px'});} , 1200);
+		timeout = setTimeout(function(){$('.linkSet').css({ 'left' : '-4000px'});} , 300);
 		
-		$('.linkBox1').css({ 'opacity' : '0'});
-		$('.linkBox2').css({ 'opacity' : '0'});
-		$('.linkBox3').css({ 'opacity' : '0'});
-		$('.linkBox4').css({ 'opacity' : '0'});
+		$('.linkSet').css({ 'left' : '0px'});
+		
+		
+		$('.linkSet').css({ 'opacity' : '0'});
 	}
 	
 	
@@ -71,3 +68,8 @@ jQuery(document).ready(function() {
 	};
 	
 });	
+
+
+
+
+

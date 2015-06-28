@@ -7,7 +7,7 @@
 
 /*
  *
- * PAGE 2
+ * PAGE 1
  *
  */	
  
@@ -17,6 +17,7 @@
 		height:100%;
 		transition:transform 1s, opacity 1s;
 		
+		font-size:250%;
 	}
 
 /* Slide 1*/
@@ -40,7 +41,7 @@
 }
 	.t-1{ margin-left:170px; }
 
-.slide-1 > .graphics{
+.slide-1 >  .graphics{
 	position:absolute;
 	top:150px;
 	left:50px;
@@ -297,20 +298,21 @@
 	}
 		.linkSet{
 			position:absolute;
+			top:50px;
 			left:-4000px;
+			opacity:0;
+			transition:opacity 0.3s;
 		}
 		.linkBox{
-			left:-4000px;
-			position:absolute;
+			display:inline_block;
+			float:left;
+			position:relative;
 			height:220px;
-			width:250px;
-			background:rgba(255,255,255,0.5);
-			opacity: 0;
+			width:45%;
+			margin: 2.5% 2.5% 2.5% 2.5%;
+			background:rgba(255,255,255,0.7);
+			opacity: 1;
 			transition:opacity .5s;
 		}
 		
-		.linkBox1{ top:60px; left:20px; transition-delay: .0s;}
-		.linkBox2{ top:60px; left:300px; transition-delay: .1s;}
-		.linkBox3{ top:315px; left:20px; transition-delay: .2s;}
-		.linkBox4{ top:315px; left:300px; transition-delay: .3s;}
 		

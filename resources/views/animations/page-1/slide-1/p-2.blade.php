@@ -59,8 +59,8 @@
 	position:absolute;
 	top:20px;
 	left:0px;
-	width:115px;
-	height:100px;
+	width:110px;
+	height:90px;
 	transform:rotate(90deg);
 	overflow:hidden;
 }

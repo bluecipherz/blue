@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
 			
 			function s1Title() {
 				s1T++;
-				$('.slide-1 > .title > span:nth-child('+s1T+')').animate ({ opacity: '1', }, 700, 'swing', function() { 
+				$('.slide-1 > .title > span:nth-child('+s1T+')').animate ({ opacity: '1', }, 300, 'swing', function() { 
 					if(s1T <= maxWord)s1Title(); 
 				});
 			}
