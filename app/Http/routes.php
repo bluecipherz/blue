@@ -15,6 +15,14 @@ Route::get('/', ['uses' => 'HomeController@index', 'as' => 'home']);
 
 Route::get('home', ['uses' => 'HomeController@index', 'as' => 'home']);
 
+Route::resource('blogs', 'BlogController');
+
+Route::resource('comments', 'CommentController', ['only' => ['update', 'store', 'destroy']]);
+
+//Route::get('test/{greeting}/{user?}', function($greet, $user = 'User') {
+//    return $greet . ', ' . $user;
+//});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
