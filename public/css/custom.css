@@ -13,7 +13,7 @@
 }
 .Icon{
 	font-family:Masterblast;
-	color:#2ecc9e;
+	color:#22e49d;
 	font-size:500%;
 	margin-left:20px;
 }
@@ -24,7 +24,7 @@
 
 .b-navset > a{
 	font-family:Code-H;
-	color:#2ecc9e;
+	color:#22e49d;
 	font-size:100%;
 	margin:0px 3px 0px 3px;
 	padding:15px 12px 14px 12px;
@@ -37,7 +37,7 @@
 	color:#2ecc71;
 }
 .b-navset > .btn{
-	border:solid 3px #2ecc9e;
+	border:solid 3px #22e49d;
 	padding:10px 12px 8px 12px;
 }
 .fakeLink:hover{ cursor:pointer;}
@@ -117,13 +117,51 @@
 	
 	
 .home-mid{
-	min-height:1000px;
+	min-height:800px;
 	z-index:10;
 	position:relative;
 	background:#fff;
 	box-shadow:0px 0px 5px rgba(0,0,0,0.3);
 }
+	.home-mid .boxInner{
+		width:80%; 
+		height:80%; 
+		margin:0% 10% 10% 10%; 
+		background:rgba(97,181,231,0.4); 
+	}
+	.home-mid .box{
+		height:400px; 
+	}
+
+
 .home-bottom{
-	min-height:800px;
-	background:#34495e;
+	position:relative;
+	width:100%;
+	min-height:500px;
+	background:rgba(27,232,106,0.8);
+	z-index:999;
+}
+
+.home-bottom img{
+	width:100%;
+	max-height:auto;
+}
+
+
+
+.home-prefooter{
+	position:relative;
+	min-height:600px;
+	padding-bottom:50px;
+	background:url('../img/home/prefooter/bg.jpg');
+	
+	z-index:999;
+}
+
+.foot-section{
+	position:relative;
+	width:100%;
+	height:400px;
+	background:#ecf0f1;
+	z-index:999;
 }

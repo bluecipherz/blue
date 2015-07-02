@@ -49,8 +49,8 @@
 	<div id="mid-section">
 		@yield('content')
 	</div>
-	<div id="footer-push"></div>
-	<footer class="" id="foot-section">
+	
+	<footer class="foot-section" id="foot-section">
 	</footer>
 
 	<!-- Scripts -->

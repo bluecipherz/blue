@@ -10,6 +10,8 @@ jQuery(document).ready(function() {
 	window.onscroll = function() {
 		if( $(".home-top-fake").isOnScreen(-$homeMidHeight - 1 ) == true ){
 			$(".cuts-nav-bg").css({"top" : "0px"});
+			
+		
 		}else{
 				$(".cuts-nav-bg").css({"top" : "-100px"});
 		}
@@ -23,7 +25,6 @@ jQuery(document).ready(function() {
 			if($page1==false) {linkBoxReset(); $page1 =true;}
 			//linkBoxReset();
 		}
-		
 	}
 	
 	var timeout;
