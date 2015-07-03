@@ -68,6 +68,57 @@ jQuery(document).ready(function() {
 
 	};
 	
+	
+					$(".fnavb1").addClass("fnavbAct1");
+					pfhResetter();
+					$(".fnavb1").find("div").css({"height":"65%"});
+					$(".fnavb1").find("img").css({"width":"70%"});
+	
+	
+	
+				$(".fnavb1").click(function(){
+					$(".fnavb2").removeClass("fnavbAct2");
+					$(".fnavb3").removeClass("fnavbAct3");
+					$(".fnavb4").removeClass("fnavbAct4");
+					$(this).addClass("fnavbAct1");
+					pfhResetter();
+					$(this).find("div").css({"height":"65%"});
+					$(this).find("img").css({"width":"70%"});
+					
+				});
+				$(".fnavb2").click(function(){
+					$(".fnavb1").removeClass("fnavbAct1");
+					$(".fnavb3").removeClass("fnavbAct3");
+					$(".fnavb4").removeClass("fnavbAct4");
+					pfhResetter();
+					$(this).addClass("fnavbAct2");
+					$(this).find("div").css({"height":"65%"});
+					$(this).find("img").css({"width":"70%"});
+				});
+				$(".fnavb3").click(function(){
+					$(".fnavb2").removeClass("fnavbAct2");
+					$(".fnavb1").removeClass("fnavbAct1");
+					$(".fnavb4").removeClass("fnavbAct4");
+					pfhResetter();
+					$(this).addClass("fnavbAct3");
+					$(this).find("div").css({"height":"65%"});
+					$(this).find("img").css({"width":"70%"});
+				});
+				$(".fnavb4").click(function(){
+					$(".fnavb2").removeClass("fnavbAct2");
+					$(".fnavb3").removeClass("fnavbAct3");
+					$(".fnavb1").removeClass("fnavbAct1");
+					pfhResetter();
+					$(this).addClass("fnavbAct4");
+					$(this).find("div").css({"height":"65%"});
+					$(this).find("img").css({"width":"70%"});
+				});
+				
+				function pfhResetter(){
+					$(".fnavb").find("div").css({"height":"60%"});
+					$(".fnavb").find("img").css({"width":"45%"});
+				}
+			
 });	
 
 

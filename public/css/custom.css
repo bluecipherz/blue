@@ -1,6 +1,7 @@
 .cust-nav{
 	height:100px;
 	background:#34495e;
+	background:#000;
 	transition: background .4s;
 	box-shadow:0px;
 }
@@ -8,7 +9,8 @@
 .cuts-nav-bg{
 	top:0px;
 	height:100px;
-	background:rgba(255,255,255,0.05);
+	background:#000;
+	background:#2a3d50;
 	transition: top .7s;
 }
 .Icon{
@@ -137,7 +139,7 @@
 .home-bottom{
 	position:relative;
 	width:100%;
-	min-height:500px;
+	min-height:400px;
 	background:rgba(27,232,106,0.8);
 	z-index:999;
 }
@@ -152,8 +154,87 @@
 .home-prefooter{
 	position:relative;
 	min-height:600px;
-	padding-bottom:50px;
+	
+	z-index:999;
+}
+.home-prefooter .home-pfBG {
 	background:url('../img/home/prefooter/bg.jpg');
+	padding-bottom:50px;
+}
+
+.home-prefooter .fhead{
+	height:120px;
+	background:#000;
+}
+
+.pf2nav{
+	margin-top:-60px;
+	height:180px;
+	overflow:hidden;
+}
+
+
+.home-prefooter .fhead .fnavb{
+	display:inline;
+	float:left;
+	font-family:code-H;
+	text-align:center;
+	color:#fff;
+	position:relative;
+	z-index:1200;
+	height:120px;
+	transition:background .1s,height .5s , margin-top 0.5s;
+	margin-top:60px;
+	width:25%;
+}
+.home-prefooter .fhead .fnavb:hover{
+	cursor:pointer;
+}
+
+
+	.home-prefooter .fhead .fnavb1{ background:rgba(255,255,255,0.2); }
+	.home-prefooter .fhead .fnavb2{ background:rgba(255,255,255,0.2); }
+	.home-prefooter .fhead .fnavb3{ background:rgba(255,255,255,0.2); }
+	.home-prefooter .fhead .fnavb4{ background:rgba(255,255,255,0.2); }
+	
+	
+	.home-prefooter .fhead .fnavb1:hover { background:rgba(25,169,225,1); }
+	.home-prefooter .fhead .fnavb2:hover { background:rgba(225,0,102,1);  }
+	.home-prefooter .fhead .fnavb3:hover { background:rgba(27,232,106,1); }
+	.home-prefooter .fhead .fnavb4:hover { background:rgba(231,175,61,1); }
+	
+	.home-prefooter .fhead .fnavbAct1, 
+	.home-prefooter .fhead .fnavbAct2, 
+	.home-prefooter .fhead .fnavbAct3, 
+	.home-prefooter .fhead .fnavbAct4{
+		margin-top:0px;
+		height:180px;
+	}
+	.home-prefooter .fhead .fnavbAct1 { background:rgba(25,169,225,1); }
+	.home-prefooter .fhead .fnavbAct2 { background:rgba(225,0,102,1);  }
+	.home-prefooter .fhead .fnavbAct3 { background:rgba(27,232,106,1); }
+	.home-prefooter .fhead .fnavbAct4 { background:rgba(231,175,61,1); }
+	
+	
+.home-prefooter .imgBox{
+	width:100%; 
+	height:70%; 
+	margin-top:10%; 
+	transition:height 0.5s
+}
+
+.home-prefooter .imgBox img{
+	width:45%;
+	max-height:auto;
+	transition:width .5s;
+}
+
+	
+.home-prefooter2{
+	position:relative;
+	min-height:600px;
+	padding-bottom:50px;
+	background:#435657;
 	
 	z-index:999;
 }

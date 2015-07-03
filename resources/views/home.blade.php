@@ -133,14 +133,17 @@
 					</div>
 				</div>
 				<div class="col-md-12">
-					<div class="col-md-4 " style="height:325px;  margin-top:50px; ">
-						<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+					<div class="col-md-3 " style="height:255px;  margin-top:50px; ">
+						<img src="img/home/bottom/think.png" style="width:90%; margin-left:5%;" draggable="false">
 					</div>
-					<div class="col-md-4" style="height:325px;  margin-top:50px; ">
-						<img src="img/home/bottom/develop.png" style="width:80%; margin-left:10%;"   draggable="false">
+					<div class="col-md-3" style="height:255px;  margin-top:50px; ">
+						<img src="img/home/bottom/develop.png" style="width:90%; margin-left:5%;"   draggable="false">
 					</div>
-					<div class="col-md-4" style="height:325px;  margin-top:50px; ">
-						<img src="img/home/bottom/deploy.png" style="width:80%; margin-left:10%;"   draggable="false">
+					<div class="col-md-3" style="height:255px;  margin-top:50px; ">
+						<img src="img/home/bottom/deploy.png" style="width:90%; margin-left:5%;"   draggable="false">
+					</div>
+					<div class="col-md-3" style="height:255px;  margin-top:50px; ">
+						<img src="img/home/bottom/deploy.png" style="width:90%; margin-left:5%;"   draggable="false">
 					</div>
 				</div>
 			</div>
@@ -148,34 +151,80 @@
 	</div>
 	
 	
-	<div class="home-prefooter ">
+	<div class="home-prefooter  ">
+		<div style="height:120px; background:rgba(27,232,106,0.8);"></div>
+		
+		<div class="home-pfBG b-untouchable">
+			<div class="fhead">
+				<div class="boxx">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 pf2nav" >
+							<span class="fnavb fnavb1   fnavbAct1">
+								<div class="imgBox">
+									<img src="img/home/prefooter2/web.png" draggable="false">
+								</div>
+								WEB APPS
+							</span>
+							<span class="fnavb fnavb2  ">
+								<div  class="imgBox">
+									<img src="img/home/prefooter2/mob.png" draggable="false">
+								</div>
+								MOBILE APPS
+							</span>
+							<span class="fnavb fnavb3  ">
+								<div class="imgBox" >
+									<img src="img/home/prefooter2/desktop.png" draggable="false">
+								</div>
+								DESKTOP APPS
+							</span>
+							<span class="fnavb fnavb4  ">
+								<div class="imgBox" >
+									<img src="img/home/prefooter2/others.png" draggable="false">
+								</div>
+								OTHERS
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="boxx">
+				<div class="row b-untouchable">
+					
+					<div class="col-md-12">
+						<div class="col-md-6 " style="height:325px; margin-bottom:50px">
+							<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
+							</div>
+						</div>
+						
+						<div class="col-md-6 " style="height:325px; margin-bottom:50px">
+							<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
+							</div>
+						</div>
+						
+						<div class="col-md-6 " style="height:325px; margin-bottom:50px">
+							<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
+							</div>
+						</div>
+						
+						<div class="col-md-6 " style="height:325px; margin-bottom:50px">
+							<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="home-prefooter2">
 		<div class="boxx">
 			<div class="row b-untouchable">
-				<div class="col-md-12">
-					<div class="col-md-6 " style="height:325px; margin-bottom:50px">
-						<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
-						</div>
-					</div>
-					
-					<div class="col-md-6 " style="height:325px; margin-bottom:50px">
-						<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
-						</div>
-					</div>
-					
-					<div class="col-md-6 " style="height:325px; margin-bottom:50px">
-						<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
-						</div>
-					</div>
-					
-					<div class="col-md-6 " style="height:325px; margin-bottom:50px">
-						<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
-						</div>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
-	
 	
 
 @endsection
