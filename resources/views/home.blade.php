@@ -128,8 +128,8 @@
 		<div class="boxx">
 			<div class="row b-untouchable">
 				<div class="col-md-12">
-					<div class="col-md-8 col-md-offset-2 ">
-						<img src="img/home/bottom/whatwedo.png"  style="width:80%; margin-left:10%; margin-top:25px; " draggable="false">
+					<div class="col-md-8 col-md-offset-2 hbhead">
+						WHAT WE DO?
 					</div>
 				</div>
 				<div class="col-md-12">
@@ -143,7 +143,7 @@
 						<img src="img/home/bottom/deploy.png" style="width:90%; margin-left:5%;"   draggable="false">
 					</div>
 					<div class="col-md-3" style="height:255px;  margin-top:50px; ">
-						<img src="img/home/bottom/deploy.png" style="width:90%; margin-left:5%;"   draggable="false">
+						<img src="img/home/bottom/promote.png" style="width:90%; margin-left:5%;"   draggable="false">
 					</div>
 				</div>
 			</div>
@@ -159,7 +159,7 @@
 				<div class="boxx">
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1 pf2nav" >
-							<span class="fnavb fnavb1   fnavbAct1">
+							<span class="fnavb fnavb1 ">
 								<div class="imgBox">
 									<img src="img/home/prefooter2/web.png" draggable="false">
 								</div>
@@ -191,24 +191,40 @@
 			<div class="boxx">
 				<div class="row b-untouchable">
 					
-					<div class="col-md-12">
-						<div class="col-md-6 " style="height:325px; margin-bottom:50px">
-							<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
+					<div class="col-md-12" style="padding-top:50px;">
+						<div class="col-md-6 " style="height:325px; margin-bottom:20px">
+							<div class="pfBoxOuter">
+								<div class="pfbox" style="">
+									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
+									<div class="pfBoxFooter">just 13000 Rs</div>
+								</div>
 							</div>
 						</div>
 						
-						<div class="col-md-6 " style="height:325px; margin-bottom:50px">
-							<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
+						<div class="col-md-6 " style="height:325px; margin-bottom:20px">
+							<div class="pfBoxOuter">
+								<div class="pfbox" style="">
+									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
+									<div class="pfBoxFooter">just 13000 Rs</div>
+								</div>
 							</div>
 						</div>
 						
-						<div class="col-md-6 " style="height:325px; margin-bottom:50px">
-							<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
+						<div class="col-md-6 " style="height:325px; ">
+							<div class=" pfBoxOuter">
+								<div class="pfbox" style="">
+									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
+									<div class="pfBoxFooter">just 13000 Rs</div>
+								</div>
 							</div>
 						</div>
 						
-						<div class="col-md-6 " style="height:325px; margin-bottom:50px">
-							<div style=" height:100%; margin:50px 2% 0px 2%; background:rgba(255,255,255,0.4);">
+						<div class="col-md-6 " style="height:325px; ">
+							<div class="pfBoxOuter">
+								<div class="pfbox" style="">
+									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
+									<div class="pfBoxFooter">just 13000 Rs</div>
+								</div>
 							</div>
 						</div>
 						

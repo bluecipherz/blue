@@ -30,13 +30,32 @@
 			<nav class="b-gum cuts-nav-bg"></nav>
 			<div class="b-navbar cust-nav">
 				<div class="boxx ztop">
-					<span class="Icon">BCZ</span>
-					<div class="b-navset pull-right">
-						<a href="">FOLIO</a>
-						<a href="">ABOUT US</a>
-						<a href="" class="btn">SIGN UP</a>
+					<div  >
+						<span class="Icon">BCZ</span>
+						<div class="b-navset pull-right">
+							<a href="">FOLIO</a>
+							<a href="">ABOUT US</a>
+							<a href="" class="btn">SIGN UP</a>
+						</div>
+					</div>
+					<div class="pf2NavHead"  style="height:0px; overflow:hidden; transition:height 0.2s;" >
+						<div class="col-md-10 col-md-offset-1 pfNavH">
+							<span class="fnavb fnavb1 ">
+								WEB APPS
+							</span>
+							<span class="fnavb fnavb2">
+								MOBILE APPS
+							</span>
+							<span class="fnavb fnavb3">
+								DESKTOP APPS
+							</span>
+							<span class="fnavb fnavb4">
+								OTHERS
+							</span>
+						</div>
 					</div>
 				</div>
+				
 			</div>
 			@yield('adminTools')
 		</nav>
