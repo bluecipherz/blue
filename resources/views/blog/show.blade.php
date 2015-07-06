@@ -5,50 +5,45 @@
 
 <div class="container">
     <div class="jumbotron" style="margin-top:20px">
-        <h1>{{ $blog->title }}</h1>
-
+        <input type="hidden" id="blog_id" value="<% $blog->slug %>">
+        <h1><% $blog->title %></h1>
         <div>
-            <p>{{ $blog->body }}</p>
+            <p><% $blog->body %></p>
         </div>
         <div>
             <h4><small>Posted By..</small>
-            {{ $blog->author }}</h4>
+            <% $blog->author %></h4>
         </div>
         <hr>
-        <div>
-            <h2>Comments</h2>
-            @forelse($comments as $comment)
-            <div class="row" style="border: 1px solid #ccc;margin-bottom: 10px;border-radius: 4px;">
-                <div class="col-md-2">
-                    <h3>{{ $comment->user }}</h3>
-                </div>
-                <div class="col-md-10" style="margin-top:20px;">
-                    {{ $comment->comment }}
-                </div>
+        <form ng-submit="submitComment()">
+            <div class="form-group">
+                <input type="text" class="form-control input-sm" name="author" ng-model="commentData.user" placeholder="Name">
             </div>
-            @empty
-                <div>
-                    No Comments
-                </div>
-            @endforelse
-        </div>
-        <div class="row">
-            <h2>Post Comment</h2>
-            <div class="col-md-8 col-sm-12">
-                {!! Form::open(['method' => 'POST','route' => ['comments.store'], 'class' => 'form-horizontal']) !!}
-                {!! Form::hidden('blog_id',$blog->id) !!}
-                <div class="form-group">
-                {!! Form::text('user', null, ['class' => 'form-control', 'placeholder' => 'Name']) !!}
-                </div><div class="form-group">
-                {!! Form::textarea('comment', null, ['class' => 'form-control', 'placeholder' => 'Comment']) !!}
-                </div>
-                <div class="form-group">
-                    {!! Form::submit('Post', ['class' => 'btn btn-primary']) !!}
-                </div>
-                {!! Form::close() !!}
+            <div class="form-group">
+                <input type="text" class="form-control input-lg" name="comment" ng-model="commentData.comment" placeholder="Your comment">
             </div>
+            <div class="form-group text-right">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </div>
+        </form>
+        <!-- LOADING ICON ============= -->
+        <!-- show loading icon if the loading variable is set to true -->
+        <p class="text-center" ng-show="loading"><span class="fa fa-meh-o fa-5x fa-spin"></span></p>
+
+        <!-- THE COMMENTS ====================================== -->
+        <!-- hide these comments if the loading variable is true -->
+        <div class="comment" ng-hide="loading" ng-repeat="comment in comments">
+            <h3>Comment #{{ comment.id }} <small>by {{ comment.author }}</small></h3>
+            <p>{{ comment.text }}</p>
+            <p><a href="#" ng-click="deleteComment(comment.id)" class="text-muted">Delete</a></p>
         </div>
     </div>
+    <script src="/js/controllers/mainCtrl.js"></script>
+    <script src="/js/services/commentService.js"></script>
+    <script>
+        var commentApp = angular.module('commentApp', ['mainCtrl', 'commentService']);
+        commentApp.value('blog', document.getElementById('blog_id').value);
+    </script>
 </div>
 
 

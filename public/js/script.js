@@ -145,8 +145,28 @@ jQuery(document).ready(function() {
 					$(".fnavb").find("div").css({"height":"60%"});
 					$(".fnavb").find("img").css({"width":"45%"});
 				}
-				
 			
+		$(".signup").click(function(){
+			$("html, body").animate({ scrollTop:  $(document).height() }, 2000);
+			$(".inputFocus").focus();
+			return false;
+		});
+
+    // dashboard sidebar
+    $(".dashboard-nav > li > a").click(function(e) {
+        var target = $(this);
+        var prev = $(".dashboard-nav > li.active");
+        prev.removeClass("active");
+        if(prev.hasClass("dropdown-nav")) {
+            prev.find(".dropdown-list").slideUp('fast');
+        }
+        target.parent().addClass("active");
+        if(target.parent().hasClass("dropdown-nav")) {
+            e.preventDefault();
+            target.parent().find(".dropdown-list").slideDown('fast');
+        }
+    });
+
 });	
 
 

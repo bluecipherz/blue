@@ -5,16 +5,17 @@
     <div class="container-full dashboard">
         <div class="dashboard-sidebar">
             <ul class="dashboard-nav">
-                <li class="active dropdown">
-                    <a href="/admin/console"><span class="glyphicon glyphicon-dashboard">&nbsp;</span>Dashboard</a>
-                    <ul>
-                        <li>asd</li>
-                        <li>asd</li>
-                        <li>asd</li>
-                        <li>asd</li>
+                <li class="active dropdown-nav">
+                    <a href="" class="dropdown-link"><span class="glyphicon glyphicon-dashboard">&nbsp;</span>Dashboard</a>
+                    <ul class="dropdown-list">
+                        <li><a href="#"><span class="glyphicon glyphicon-home">&nbsp;</span>Home</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-inbox">&nbsp;</span>Inbox</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-pencil">&nbsp;</span>My Blogs</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-tasks">&nbsp;</span>Tasks</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-stats">&nbsp;</span>Work Status</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Notifications</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><span class="glyphicon glyphicon-home">&nbsp;</span>Home</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-music">&nbsp;</span>Media</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-paperclip">&nbsp;</span>Posts</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-link">&nbsp;</span>Links</a></li>
@@ -26,8 +27,9 @@
                 <li><a href="#"><span class="glyphicon glyphicon-cog">&nbsp;</span>Settings</a></li>
             </ul>
         </div>
-        <div class="dashboard-content">
-            wassup
+        <div class="dashboard-content" ng-init="yourtext='Data binding is cool!'">
+            Enter your text: <input type="text" ng-model="yourtext" />
+            <strong>You entered :</strong> {{ yourtext }}
         </div>
     </div>
 @endsection

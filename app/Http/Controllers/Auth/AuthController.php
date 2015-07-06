@@ -35,4 +35,26 @@ class AuthController extends Controller {
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
 
+    public function postLogin(Request $request)
+    {
+        $this->validate($request, [
+            'email' => 'required|email', 'password' => 'required',
+        ]);
+
+        $credentials = $request->only('email', 'password');
+
+        $user = $this->userprovider->retrieveByCredentials($credentials);
+
+        if ($this->auth->attempt($credentials, $request->has('remember')))
+        {
+            return redirect()->intended($this->redirectPath());
+        }
+
+        return redirect($this->loginPath())
+            ->withInput($request->only('email', 'remember'))
+            ->withErrors([
+                'email' => $this->getFailedLoginMessage(),
+            ]);
+    }
+
 }

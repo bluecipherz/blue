@@ -5,6 +5,7 @@ use Input;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\Blog;
 
 class CommentController extends Controller {
 
@@ -13,6 +14,11 @@ class CommentController extends Controller {
         'user' => 'required',
         'comment' => 'required'
     ];
+
+    public function index($blog) {
+        $blog = Blog::whereSlug($blog)->first();
+        return $blog->comments;
+    }
 
 	/**
 	 * Store a newly created resource in storage.
