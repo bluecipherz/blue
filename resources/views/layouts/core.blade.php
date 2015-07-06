@@ -33,9 +33,9 @@
 					<div  >
 						<span class="Icon">BCZ</span>
 						<div class="b-navset pull-right">
-							<a href="">FOLIO</a>
-							<a href="">ABOUT US</a>
-							<a href="" class="btn">SIGN UP</a>
+							<a >FOLIO</a>
+							<a >ABOUT US</a>
+							<a  class="btn signup">SIGN UP</a>
 						</div>
 					</div>
 					<div class="pf2NavHead"  style="height:0px; overflow:hidden; transition:height 0.2s;" >
@@ -70,6 +70,47 @@
 	</div>
 	
 	<footer class="foot-section" id="foot-section">
+		<div class="container">
+			<div class="col-md-12" style="height:150px; ">
+				<div class="col-md-3 inputF inputFocus"> <input type="text" placeholder="USERNAME"> </div>
+				<div class="col-md-3 inputF"> <input type="text" placeholder="EMAIL"> </div>
+				<div class="col-md-3 inputF"> <input type="password" placeholder="PASSWORD"> </div>
+				<div class="col-md-3 inputF"> <input type="password" placeholder="CONFIRM PASSWORD"> </div>
+				<div class="col-md-4 col-md-offset-4 inputF"> <button type="submit" >SUBMIT</button> </div>
+			</div>
+			<div class="col-md-12 footerLinks">
+				<div class="col-md-2 footerLinkSet">
+					<span><a >Support</a></span>
+					<span><a >Manuel  </a></span>
+					<span><a >Enemy  </a></span>
+					<span><a >Door  </a></span>
+				</div>
+				<div class="col-md-2 footerLinkSet">
+					<span><a >Street Dog</a></span>
+					<span><a >Something  </a></span>
+					<span><a >Hall </a></span>
+					<span><a >Man of Doll </a></span>
+				</div>
+				
+				<div class="col-md-4 b-untouchable" style="text-align:center; font-family:masterblast; font-size:80px; color:#95a5a6; padding-top:90px; line-height:30px; height:200px;">
+					BCZ
+					<span style="font-family:Dosis; font-size:20px; height:40px; margin:0px;">Bluecipherz 2015</span>
+				</div>
+				
+				<div class="col-md-2 footerLinkSet">
+					<span><a >Big IPPc</a></span>
+					<span><a >Peace  </a></span>
+					<span><a >Some </a></span>
+					<span><a >Door Dummy </a></span>
+				</div>
+				<div class="col-md-2 footerLinkSet">
+					<span><a >Cat street</a></span>
+					<span><a >fear  </a></span>
+					<span><a >User Kind </a></span>
+					<span><a >Great  </a></span>
+				</div>
+			</div>
+		</div>
 	</footer>
 
 	<!-- Scripts -->

@@ -86,36 +86,36 @@
 	<div class="home-mid">
 		<div class="boxx">
 			<div class="row">
-				<div class="col-md-12" style="margin-top:100px;">
+				<div class="col-md-12" style="margin-top:60px;">
 					<div class="col-md-4 box" >
 						<div class="boxInner">
-							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+							 
 						</div>
 					</div>
 					<div class="col-md-4 box" >
 						<div class="boxInner">
-							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+							 
 						</div>
 					</div>
 					<div class="col-md-4 box" >
 						<div class="boxInner">
-							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+							 
 						</div>
 					</div>
 					
 					<div class="col-md-4 box" >
 						<div class="boxInner">
-							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+							 
 						</div>
 					</div>
 					<div class="col-md-4 box" >
 						<div class="boxInner">
-							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+							 
 						</div>
 					</div>
 					<div class="col-md-4 box" >
 						<div class="boxInner">
-							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+							 
 						</div>
 					</div>
 					
@@ -242,6 +242,7 @@
 		</div>	
 	</div>
 	
+	{{--
 	<div class="home-prefooter2" style="font-family:Dosis;">
 		<div class="boxx">
 			<div class="row b-untouchable">
@@ -262,6 +263,6 @@
 			</div>
 		</div>
 	</div>
-	
+	--}}
 
 @endsection

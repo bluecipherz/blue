@@ -145,7 +145,12 @@ jQuery(document).ready(function() {
 					$(".fnavb").find("div").css({"height":"60%"});
 					$(".fnavb").find("img").css({"width":"45%"});
 				}
-				
+			
+		$(".signup").click(function(){
+			$("html, body").animate({ scrollTop:  $(document).height() }, 2000);
+			$(".inputFocus").focus();
+			return false;
+		});			
 			
 });	
 
