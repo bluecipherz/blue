@@ -19,6 +19,16 @@ Route::resource('blogs', 'BlogController');
 
 Route::resource('comments', 'CommentController', ['only' => ['update', 'store', 'destroy']]);
 
+Route::group(['prefix' => 'admin'], function() {
+
+    Route::get('console', function() {
+
+        return view('admin.index');
+
+    });
+
+});
+
 //Route::get('test/{greeting}/{user?}', function($greet, $user = 'User') {
 //    return $greet . ', ' . $user;
 //});

@@ -1,7 +1,7 @@
 @extends('layouts.core')
 
 
-@section('content')</ol>
+@section('content')
     <div class="container" style="margin-top:20px">
         <ol class="breadcrumb" style="margin-top:20px">
             <li><a href="{{ route('home') }}">Home</a></li>
