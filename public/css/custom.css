@@ -175,6 +175,7 @@ body{
 }
 .home-prefooter .home-pfBG {
 	background:url('../img/home/prefooter/bg.jpg');
+	background:#dcdcdc;
 	padding-bottom:50px;
 }
 
@@ -284,7 +285,7 @@ body{
 	display:inline_block;
 	float:left;
 	width:25%;
-	background:rgba(0,0,0,0.4); 
+	background:rgba(0,0,0,0.7); 
 	font-family:code-H;
 	padding-top:5px;
 	color:#fff;
@@ -303,7 +304,6 @@ body{
 .home-prefooter .pfbox{
 	height:100%;
 	width:100%;
-	font-family:Code-H;
 	font-size:30px;
 	line-height:110%;
 	padding:25px;
@@ -314,8 +314,26 @@ body{
 }	
 .home-prefooter .pfbox:hover{ background:rgba(255,255,225,0.2); }
 
-.pfBoxOuter{float:left; display:block; height:100%; position:relative; width:100%; background:rgba(25,169,225,1); }
-.pfBoxFooter{background:#3a5261; position:absolute; bottom:0px; width:100%; left:0%; height:80px; font-size:40px; color:rgba(255,255,255,0.8); padding:24px; text-align:center;}
+.pfBoxOuter{float:left; display:block; height:100%; position:relative; width:100%; background:#369db3; }
+.pfBoxFooter{background:#424242; 
+			position:absolute; 
+			bottom:0px; 
+			width:100%; 
+			left:0%; 
+			height:150px; 
+			font-size:40px; 
+			color:rgba(255,255,255,0.6); 
+			padding:24px; 
+			text-align:center;
+			transition:height 0.5s;
+			}
+
+.home-prefooter .pfbox:hover .pfBoxFooter{
+	height:180px;
+	color:rgba(255,255,255,0.8);
+}
+
+
 .home-prefooter2{
 	position:relative;
 	min-height:600px;

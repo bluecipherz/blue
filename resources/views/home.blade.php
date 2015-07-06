@@ -44,7 +44,7 @@
 								BUILD
 							</div>
 							<div  class="cont" >
-								Cross browser websites </br> amazing mobile apps </br> awesome desktop app
+								<span>Cross browser websites </span><span> amazing mobile apps </span><span> awesome desktop app </span>
 							</div>
 						</div>
 						
@@ -191,39 +191,47 @@
 			<div class="boxx">
 				<div class="row b-untouchable">
 					
-					<div class="col-md-12" style="padding-top:50px;">
+					<div class="col-md-12" style="padding-top:50px; font-family:Dosis;">
 						<div class="col-md-6 " style="height:325px; margin-bottom:20px">
 							<div class="pfBoxOuter">
-								<div class="pfbox" style="">
-									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
-									<div class="pfBoxFooter">just 13000 Rs</div>
+								<div class="pfbox" style="color:rgba(0,0,0,0.4); text-align:center; ">
+									<span style="display:block; float:left; margin:30px 0px 0px 70px; font-size:120px; font-family:Code-H; ">FLAT</span>
+									<span style="display:block; float:left; margin:40px 0px 0px 70px; font-size:60px;  font-family:Code-H; ">50% OFF </span>
+									<div class="pfBoxFooter"><span style="display:block; float:left; margin:0px 0px 10px 10px; font-size:20px; ">Flat 50% off on Responsive HTML5 Websites</span>
+									GET IT NOW...!!!</div>
 								</div>
 							</div>
 						</div>
 						
 						<div class="col-md-6 " style="height:325px; margin-bottom:20px">
 							<div class="pfBoxOuter">
-								<div class="pfbox" style="">
-									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
-									<div class="pfBoxFooter">just 13000 Rs</div>
+								<div class="pfbox" style="color:rgba(0,0,0,0.4); text-align:center; background:#ffae42;">
+									<span style="display:block; float:left; margin:30px 0px 0px 50px; font-size:110px;  font-family:Code-H; ">HTML5</span>
+									<span style="display:block; float:left; margin:40px 0px 0px 70px; font-size:60px;  font-family:Code-H; ">UPTO 20%</span>
+									<div class="pfBoxFooter"><span style="display:block; float:left; margin:0px 0px 10px 10px; font-size:20px; ">Upto 20% off on Responsive HTML5 Websites</span>
+									GET IT NOW...!!!</div>
 								</div>
 							</div>
 						</div>
 						
 						<div class="col-md-6 " style="height:325px; ">
 							<div class=" pfBoxOuter">
-								<div class="pfbox" style="">
-									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
-									<div class="pfBoxFooter">just 13000 Rs</div>
+								<div class="pfbox" style="color:rgba(0,0,0,0.4); text-align:center; background:#c92170;">
+									<span style="display:block; float:left; margin:40px 0px 0px 15px; font-size:60px; font-family:Code-H;  ">E-COMMERCE</span>
+									<span style="display:block; float:left; margin:10px 0px 0px 25px; font-size:30px;  font-family:Code-H; ">WITH CMS AND CONSOLE</span>
+									<div class="pfBoxFooter"><span style="display:block; float:left; margin:0px 0px 10px 10px; font-size:20px; ">YOur E-Commerce Website is ready in our hands, No need to wait</span>
+									GET IT NOW...!!!</div>
 								</div>
 							</div>
 						</div>
 						
 						<div class="col-md-6 " style="height:325px; ">
 							<div class="pfBoxOuter">
-								<div class="pfbox" style="">
-									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
-									<div class="pfBoxFooter">just 13000 Rs</div>
+								<div class="pfbox" style="color:rgba(0,0,0,0.4); text-align:center;background:#3ce163; ">
+									<span style="display:block; float:left; margin:30px 0px 0px 70px; font-size:120px;  font-family:Code-H; ">FLAT</span>
+									<span style="display:block; float:left; margin:40px 0px 0px 70px; font-size:60px;  font-family:Code-H; ">50% OFF </span>
+									<div class="pfBoxFooter"><span style="display:block; float:left; margin:0px 0px 10px 10px; font-size:20px; ">Flat 50% off on Responsive HTML5 Websites</span>
+									GET IT NOW...!!!</div>
 								</div>
 							</div>
 						</div>
@@ -234,10 +242,23 @@
 		</div>	
 	</div>
 	
-	<div class="home-prefooter2">
+	<div class="home-prefooter2" style="font-family:Dosis;">
 		<div class="boxx">
 			<div class="row b-untouchable">
 				
+					<div class="col-md-12" style="padding-top:50px;">
+						<div class="col-md-12 " style="height:80px; padding:0px; color:rgba(255,255,255,0.7); text-align:center; font-size:30px;">
+							Latest Blog Feeds
+						</div>
+						@for($i=1;$i<=8;$i++)
+							<div class="col-md-3 " style="height:250px; padding:0px;">
+								<div  style="height:94%; width:94%; margin:3%;  background:rgba(255,255,255,0.1);">
+									<div style="text-align:center; font-size:16px; padding:7px; background:#2cb8e6; color:rgba(0,0,0,0.6);"> Heading of the Blog </div>
+									<div style="text-align:left; font-size:14px; padding:7px 10px 10px 15px; color:rgba(255,255,255,0.6);"> Content of this blog is like.. AWwwee. cuz you know what..? thses peeps are like Awwee... still donno why i type Awwee... dammnn alll i know is the damn sound came from your Mouth AWEE.. </div>
+								</div>
+							</div>
+						@endfor
+					</div>	
 			</div>
 		</div>
 	</div>

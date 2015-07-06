@@ -320,7 +320,7 @@
 			height:80px;
 			color:#fff;
 			font-size:300%;
-			font-family:Code-H;
+			font-family:Dosis;
 			padding-top:12px;
 			
 		}
@@ -341,14 +341,21 @@
 		
 		
 		.linkBox > .cont {
-			margin-left:10px;
+			margin-left:5px;
 			width:100%;
 			color:rgba(255,255,255,0.8);
-			font-size:80%;
-			font-family:Code-H;
-			padding:12px;
+			font-size:120%;
+			font-family:Dosis;
+			padding:22px;
 			text-align:left;
 			line-height:200%;
+			letter-spacing:1px;
 		}
 		
+		.linkBox  .cont > span{ 
+			display:block;
+			float:left;
+			position:relative;  
+			}
 		
+		.linkBox:hover .cont > span{  }
