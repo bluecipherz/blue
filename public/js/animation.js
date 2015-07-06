@@ -44,7 +44,9 @@ jQuery(document).ready(function() {
 					$('.slide-1').animate ({ left: '0', }, $trans2 , 'swing', function() { p1slides(); });
 			
 		}
-		p1slides();
+		
+		
+		// p1slides(); -- This feature is Disabled Because of fast development process, Only only slide is going to animated
 	
 		/* slide - 1 */
 		
@@ -272,6 +274,49 @@ jQuery(document).ready(function() {
 			
 		/** PAGE 2 */	
 		
+		var page2OverAnimate = false; // This is kinda heavy load animation 
 		
+		if(page2OverAnimate){
 		
+			$(".linkBox1").hover(function(){
+					$(".linkBox1 ").css({"transform":"scale(1.1)"});    
+					$(".linkBox2 ").css({"transform":"scale(.9)"});    
+					$(".linkBox3 ").css({"transform":"scale(.9)"});    
+					$(".linkBox4 ").css({"transform":"scale(.9)"});    
+					} 
+				);
+			$(".linkBox2").hover(function(){
+					$(".linkBox2 ").css({"transform":"scale(1.1)"});    
+					$(".linkBox1 ").css({"transform":"scale(.9)"});    
+					$(".linkBox3 ").css({"transform":"scale(.9)"});    
+					$(".linkBox4 ").css({"transform":"scale(.9)"});    
+					} 
+				);
+			$(".linkBox3").hover(function(){
+					$(".linkBox3 ").css({"transform":"scale(1.1)"});    
+					$(".linkBox2 ").css({"transform":"scale(.9)"});    
+					$(".linkBox1 ").css({"transform":"scale(.9)"});    
+					$(".linkBox4 ").css({"transform":"scale(.9)"});    
+					} 
+				);
+			$(".linkBox4").hover(function(){
+					$(".linkBox4 ").css({"transform":"scale(1.1)"});    
+					$(".linkBox2 ").css({"transform":"scale(.9)"});    
+					$(".linkBox3 ").css({"transform":"scale(.9)"});    
+					$(".linkBox1 ").css({"transform":"scale(.9)"});    
+					}  
+				);
+			
+			$(".linkSet").hover(function(){ } ,function(){ 
+						resetBlocks();
+						});
+			
+			function resetBlocks(){
+				$(".linkBox1 ").css({"transform":"scale(1)"});    
+				$(".linkBox2 ").css({"transform":"scale(1)"});    
+				$(".linkBox3 ").css({"transform":"scale(1)"});    
+				$(".linkBox4 ").css({"transform":"scale(1)"});    
+			}
+			
+		}
 });	

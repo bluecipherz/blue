@@ -40,15 +40,39 @@
 				<div class="page-2  b-untouchable">
 					<div class="col-xs-12  col-sm-8 col-sm-offset-2  col-md-6 col-md-offset-3 linkSet" style="height:100% ;">
 						<div class="linkBox linkBox1 fakeLink">
+							<div class="head">
+								BUILD
+							</div>
+							<div  class="cont" >
+								Cross browser websites </br> amazing mobile apps </br> awesome desktop app
+							</div>
 						</div>
 						
 						<div class="linkBox linkBox2 fakeLink">
+							<div class="head">
+								BLOG
+							</div>
+							<div class="cont">
+								be the first to know the latest developer tricks and tips 
+							</div>
 						</div>
 						
 						<div class="linkBox linkBox3 fakeLink">
+							<div class="head">
+								JOIN US
+							</div>
+							<div class="cont">
+								we are offering you a lot of features without spending a single cent
+							</div>
 						</div>
 						
 						<div class="linkBox linkBox4 fakeLink">
+							<div class="head">
+								FOLIO
+							</div>
+							<div class="cont">
+								take a look at our amazing and colourful works
+							</div>
 						</div>
 					</div>
 				</div>
@@ -62,12 +86,161 @@
 	<div class="home-mid">
 		<div class="boxx">
 			<div class="row">
-				
-				
+				<div class="col-md-12" style="margin-top:100px;">
+					<div class="col-md-4 box" >
+						<div class="boxInner">
+							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+						</div>
+					</div>
+					<div class="col-md-4 box" >
+						<div class="boxInner">
+							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+						</div>
+					</div>
+					<div class="col-md-4 box" >
+						<div class="boxInner">
+							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+						</div>
+					</div>
+					
+					<div class="col-md-4 box" >
+						<div class="boxInner">
+							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+						</div>
+					</div>
+					<div class="col-md-4 box" >
+						<div class="boxInner">
+							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+						</div>
+					</div>
+					<div class="col-md-4 box" >
+						<div class="boxInner">
+							<img src="img/home/bottom/think.png" style="width:80%; margin-left:10%;" draggable="false">
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="home-bottom ">
+		<div class="boxx">
+			<div class="row b-untouchable">
+				<div class="col-md-12">
+					<div class="col-md-8 col-md-offset-2 hbhead">
+						WHAT WE DO?
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-3 " style="height:255px;  margin-top:50px; ">
+						<img src="img/home/bottom/think.png" style="width:90%; margin-left:5%;" draggable="false">
+					</div>
+					<div class="col-md-3" style="height:255px;  margin-top:50px; ">
+						<img src="img/home/bottom/develop.png" style="width:90%; margin-left:5%;"   draggable="false">
+					</div>
+					<div class="col-md-3" style="height:255px;  margin-top:50px; ">
+						<img src="img/home/bottom/deploy.png" style="width:90%; margin-left:5%;"   draggable="false">
+					</div>
+					<div class="col-md-3" style="height:255px;  margin-top:50px; ">
+						<img src="img/home/bottom/promote.png" style="width:90%; margin-left:5%;"   draggable="false">
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	
+	
+	<div class="home-prefooter  ">
+		<div style="height:120px; background:rgba(27,232,106,0.8);"></div>
+		
+		<div class="home-pfBG b-untouchable">
+			<div class="fhead">
+				<div class="boxx">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 pf2nav" >
+							<span class="fnavb fnavb1 ">
+								<div class="imgBox">
+									<img src="img/home/prefooter2/web.png" draggable="false">
+								</div>
+								WEB APPS
+							</span>
+							<span class="fnavb fnavb2  ">
+								<div  class="imgBox">
+									<img src="img/home/prefooter2/mob.png" draggable="false">
+								</div>
+								MOBILE APPS
+							</span>
+							<span class="fnavb fnavb3  ">
+								<div class="imgBox" >
+									<img src="img/home/prefooter2/desktop.png" draggable="false">
+								</div>
+								DESKTOP APPS
+							</span>
+							<span class="fnavb fnavb4  ">
+								<div class="imgBox" >
+									<img src="img/home/prefooter2/others.png" draggable="false">
+								</div>
+								OTHERS
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="boxx">
+				<div class="row b-untouchable">
+					
+					<div class="col-md-12" style="padding-top:50px;">
+						<div class="col-md-6 " style="height:325px; margin-bottom:20px">
+							<div class="pfBoxOuter">
+								<div class="pfbox" style="">
+									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
+									<div class="pfBoxFooter">just 13000 Rs</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 " style="height:325px; margin-bottom:20px">
+							<div class="pfBoxOuter">
+								<div class="pfbox" style="">
+									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
+									<div class="pfBoxFooter">just 13000 Rs</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 " style="height:325px; ">
+							<div class=" pfBoxOuter">
+								<div class="pfbox" style="">
+									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
+									<div class="pfBoxFooter">just 13000 Rs</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 " style="height:325px; ">
+							<div class="pfBoxOuter">
+								<div class="pfbox" style="">
+									FLAT 50% OFF On HTML5 FULL Responsive Websites. Get yours for 
+									<div class="pfBoxFooter">just 13000 Rs</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="home-prefooter2">
+		<div class="boxx">
+			<div class="row b-untouchable">
+				
+			</div>
+		</div>
+	</div>
 	
 
 @endsection
