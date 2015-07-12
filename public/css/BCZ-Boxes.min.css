@@ -182,17 +182,22 @@ a:hover {
 }
 
 .dashboard-sidebar {
-    width: 15%;
+    width: 20%;
     float: left;
     margin: 10px 0;
 }
 
 .dashboard-content {
-    width: 85%;
+    width: 80%;
     float: left;
     padding: 15px;
     background: #f0f0f0;
     min-height: 500px;
+    font : 1em Dosis;
+}
+
+.dashboard-content > div > div > h3 {
+    margin-top: 10px;
 }
 
 .dashboard-nav {
@@ -269,4 +274,47 @@ a:hover {
 .dropdown-list > li > a:hover {
     background: #333333;
     color: #f0f0f0;
+}
+
+.panel-white {
+    margin-top : 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.2) !important;
+}
+
+.panel-white .btn-lg {
+    padding: 12px 36px;
+    font-size: 15px;
+}
+
+.panel-white > .panel-heading{
+    padding: 15px 20px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.panel-white > .panel-heading > h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.panel-white > .panel-body {
+    padding: 15px 20px;
+}
+
+.panel-white > .panel-body-2 {
+    padding: 15px 15px;
+}
+
+.panel-white > .panel-body h4 {
+    margin-top : 0;
+    margin-bottom : 15px;
+}
+
+.col-2 {
+    width : 50%;
+    float : left;
+}
+
+.col-3 {
+    width: 33.3333%;
+    float : left;
 }

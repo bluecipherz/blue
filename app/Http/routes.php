@@ -11,9 +11,6 @@
 |
 */
 
-Blade::setContentTags('<%', '%>');        // for variables and all things Blade
-Blade::setEscapedContentTags('<%%', '%%>');   // for escaped data
-
 Route::get('/', ['uses' => 'HomeController@index', 'as' => 'home']);
 
 Route::get('home', ['uses' => 'HomeController@index', 'as' => 'home']);
@@ -25,9 +22,13 @@ Route::resource('blogs.comments', 'CommentController', ['only' => ['index', 'upd
 Route::group(['prefix' => 'admin'], function() {
 
     Route::get('console', function() {
-
-        return view('admin.index');
-
+        return view('admin.dashboard');
+    });
+    Route::get('orders', function() {
+        return view('admin.dashboard');
+    });
+    Route::get('projects', function() {
+        return view('admin.dashboard');
     });
 
 });
